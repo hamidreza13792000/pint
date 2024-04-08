@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+.App {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.panel-color-picker {
+    width: 60px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #c8c8c8;
+}
+
+.panel-color-picker .color-item {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.panel-color-picker .color-item.black {
+    background-color: black;
+}
+
+.panel-color-picker .color-item.white {
+    background-color: white;
+}
+
+.panel-color-picker .color-item.red {
+    background-color: red;
+}
+
+.panel-color-picker .color-item.blue {
+    background-color: blue;
+}
+
+.panel-color-picker .color-item.aqua {
+    background-color: aqua;
+}
+
+.panel-color-picker .color-item.green {
+    background-color: green;
+}
+
+.panel-drawing {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #4b4b4b;
+}
+
+.panel-drawing canvas {
+    width: 100%;
+    height: 100%;
+}
